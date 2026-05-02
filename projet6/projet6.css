@@ -1,0 +1,36 @@
+body {
+background: beige;
+overflow: hidden;
+width: 4000px;
+height: 1000px;
+}
+#img8 {
+position: absolute;
+top: 0px;
+left: 1120px;
+}
+#h1 {
+position: absolute;
+top: 250px;
+left: 240px;
+}
+#h2 {
+position: absolute;
+top: 250px;
+left: 540px;
+}
+#img1 {
+position: absolute;
+top: 0px;
+left: 1146px;
+}
+#chat1 {
+position: absolute;
+top: 100px;
+left: 200px;
+}
+#chat2 {
+position: absolute;
+top: 100px;
+left: 500px;
+}

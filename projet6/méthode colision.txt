@@ -1,0 +1,31 @@
+
+  Si (Touche pressé "q") { 
+	Si(Xchat>(Xpierre-LargeurChat+marge) Et Xchat<(Xpierre+LargeurPierre) Et Ychat>(Ypierre-HauteurChat+marge) Et Ychat<(Ypierre+HauteurPierre-HauteurChat)){} 
+	sinon, Si(x>10)		{x=x-10}} //aller a droite
+
+  Si (Touche pressé "d") { 
+	Si(Xchat>(Xpierre-LargeurChat) Et Xchat<(Xpierre+LargeurPierre-marge) Et Ychat>(Ypierre-HauteurChat+marge) Et Ychat<(Ypierre+HauteurPierre-HauteurChat)){} 
+	sinon, Si(x<3890)	{x=x+10}} //aller a gauche
+
+  Si (Touche pressé "z") { 
+	Si(Xchat>(Xpierre-LargeurChat+marge) Et Xchat<(Xpierre+LargeurPierre-marge) Et Ychat>(Ypierre-HauteurChat+marge)
+Et Ychat<(Ypierre+HauteurPierre-HauteurChat+marge)){}
+	sinon, Si(y>10)		{y=y-10}} //descendre
+
+  Si (Touche pressé "s") { 
+	Si(Xchat>(Xpierre-LargeurChat+marge) Et Xchat<(Xpierre+LargeurPierre-marge) Et Ychat>(Ypierre-HauteurChat) Et Ychat<(Ypierre+HauteurPierre-HauteurChat)){}
+	sinon, Si(y<900)	{y=y+10}} //monter
+
+Xpierre:200
+Ypierre:200
+
+Largeur Pierre:170
+Hauteur Pierre:110
+
+Xchat: x
+Ychat: y
+
+Largeur Chat:110
+Hauteur Chat:85
+
+marge:10
