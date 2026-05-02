@@ -79,7 +79,6 @@ if(x>(img3x-110) && x<(img3x+100) && y>(img3y-85) && y<(img3y-85+100) && hidden1
 	else if(x>(img4x-110) && x<(img4x+100) && y>(img4y-85) && y<(img4y-85+100) && hidden2==0){f5();test=2}
 	else if(x>(img5x-110) && x<(img5x+100) && y>(img5y-85) && y<(img5y-85+100) && hidden3==0){f5();test=3}
 	else {f6();test=0};
-if(x>(800-110) && x<(800+100) && y>(400-85) && y<(400-85+100) && hidden1==0){f5();test=1}
 
 });
 
